@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translation: Taijiquan (Unit 6)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI','Microsoft YaHei',Arial,sans-serif;background:#f3f0fa;color:#2c3e50;line-height:1.9;font-size:20px}
+.header{background:linear-gradient(to right, #3a7bd5, #4a9e5c);color:#fff;padding:20px;text-align:center}
+.header h1{font-size:26px;margin-bottom:6px}
+.header p{font-size:16px;color:#e8eef7}
+.container{max-width:100%;margin:0;padding:16px}
+.section{background:#fff;border-radius:10px;padding:24px;margin-bottom:18px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+h2{font-size:24px;color:#2c3e50;margin-bottom:16px;border-bottom:3px solid #7aa7e0;padding-bottom:8px}
+h3{font-size:20px;color:#3b6fd4;margin:18px 0 10px}
+p{margin-bottom:12px;text-align:justify}
+.trans-item{border:1px solid #e0e0ef;border-radius:10px;padding:20px;margin-bottom:20px;background:#fcfdfe}
+.cn-sentence{font-size:21px;color:#2c3e50;margin-bottom:14px;line-height:2;text-align:justify}
+.hl{background:#fff3b0;font-weight:700;padding:0 3px;color:#c0392b; border-bottom: 2px dotted #e67e22;}
+.hl-en{background:#fff3b0;font-weight:700;padding:0 3px;color:#c0392b;}
+.btn{display:inline-block;padding:8px 18px;background:#7aa7e0;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:17px;margin-top:8px;margin-right:8px}
+.btn:hover{background:#5b8fd4}
+.btn-green{background:#27ae60}
+.btn-green:hover{background:#219150}
+.analysis{display:none;margin-top:14px;padding:16px;background:#eef4fc;border-left:4px solid #7aa7e0;border-radius:5px;font-size:19px;line-height:1.9}
+.analysis.show{display:block}
+.analysis p{margin-bottom:8px}
+.analysis .term{color:#3b6fd4;font-weight:700}
+.en-sentence{display:none;margin-top:14px;padding:16px;background:#f0f9f4;border:2px solid #c8e6c9;border-radius:6px;font-size:20px;line-height:1.9}
+.en-sentence.show{display:block}
+.word-block{margin-top:14px;padding:14px;background:#fdf3e7;border-left:4px solid #e67e22;border-radius:5px;font-size:19px;line-height:1.9}
+.word-block strong{color:#e67e22}
+.word-block p{margin-bottom:6px}
+.skill-box{background:#fef9e7;border-left:4px solid #f1c40f;padding:16px;border-radius:6px;margin-bottom:16px}
+.skill-box h3{margin-top:0;color:#b9770e}
+.skill-box p{font-size:19px;margin-bottom:8px;line-height:1.9}
+.skill-box .example{background:#fff;padding:12px;border-radius:4px;margin-top:8px;font-size:18px;line-height:1.9;border-left:3px solid #27ae60}
+.quiz-item{border:1px solid #e0e0ef;border-radius:10px;padding:18px;margin-bottom:18px;background:#fcfdfe}
+.quiz-item .q-cn{font-size:20px;color:#2c3e50;margin-bottom:10px;line-height:1.9}
+.ref-answer{display:none;margin-top:12px;padding:14px;background:#f0f9f4;border:2px solid #c8e6c9;border-radius:6px;font-size:19px;line-height:1.9}
+.ref-answer.show{display:block}
+.sup-item{background:#fcfdfe;border:1px solid #e0e0ef;border-radius:6px;margin-bottom:14px; overflow: hidden;}
+.sup-btn{width:100%; text-align:left; padding:16px; font-size:19px; font-weight:bold; cursor:pointer; border:none; outline:none; transition: background 0.3s;}
+.sup-btn:hover{background:#f0f4f8;}
+.sup-content{display:none; padding:16px; border-top:1px solid #e0e0ef; background:#fff;}
+.sup-content.show{display:block;}
+
+/* 九大逻辑连接词专属颜色 */
+.color-1 { background: #e3f2fd; color: #1565c0; border-left: 4px solid #1565c0; }
+.color-2 { background: #fff3e0; color: #e65100; border-left: 4px solid #e65100; }
+.color-3 { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #2e7d32; }
+.color-4 { background: #f3e5f5; color: #6a1b9a; border-left: 4px solid #6a1b9a; }
+.color-5 { background: #e0f7fa; color: #00838f; border-left: 4px solid #00838f; }
+.color-6 { background: #fce4ec; color: #c2185b; border-left: 4px solid #c2185b; }
+.color-7 { background: #f1f8e9; color: #558b2f; border-left: 4px solid #558b2f; }
+.color-8 { background: #ede7f6; color: #4527a0; border-left: 4px solid #4527a0; }
+.color-9 { background: #fbe9e7; color: #d84315; border-left: 4px solid #d84315; }
+
+.example { background:#fff; padding:12px; border-radius:6px; margin-top:10px; font-size:18px; border:1px solid #e0e0ef; line-height:1.8; }
+.example-tag { font-weight:bold; color:#c0392b; margin-right:6px; }
+.example strong { color: #27ae60; font-size: 19px; }
+.vocab-list { line-height: 2.2; font-size: 19px; color: #34495e; margin-bottom: 10px;}
+.vocab-list span { display: inline-block; margin-right: 15px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Translation: Taijiquan</h1>
+  <p>汉译英专项训练 · 短句翻译 (Unit 6)</p>
+</div>
+
+<div class="container">
+
+<div class="section">
+<h2>一、从短句翻译到段落翻译</h2>
+<p>四六级考试考查的是<strong>段落翻译</strong>。</p>
+<p>从短句翻译过渡到段落翻译，需要关注两个层面：</p>
+<ul style="margin-left:24px;margin-bottom:12px;">
+<li><strong>句内</strong>：句子内部如何组织？（主语 + 谓语 + 宾语？主系表？）</li>
+<li><strong>句间</strong>：句子与句子之间如何衔接？（并列？转折？因果？）</li>
+</ul>
+<p><strong>翻译的基本单位是句子，而非单词或短语。</strong></p>
+<p>因此，要译好段落，须先译好句子；要译好句子，须先理解<strong>英语句子的结构</strong>以及<strong>句与句之间的连接词</strong>。</p>
+</div>
+
+<div class="section">
+<h2>二、逐句精讲</h2>
+
+<div class="trans-item">
+<h3>句子 1</h3>
+<div class="cn-sentence">太极拳是一种<span class="hl">武术</span>，也是一种<span class="hl">健身运动</span>，在中国有着<span class="hl">悠久的历史</span>。</div>
+<button class="btn" onclick="toggle('a1')">主干分析</button>
+<button class="btn btn-green" onclick="toggle('e1')">参考译文</button>
+<div id="a1" class="analysis">
+<p><span class="term">句式：</span>主系表结构，并列句</p>
+<p><span class="term">主干：</span>Taijiquan + is + a martial art and a fitness exercise；It + has + a long history</p>
+<p><span class="term">时态：</span>一般现在时（is）+ 一般现在时（has）</p>
+</div>
+<div id="e1" class="en-sentence">Taijiquan is a <span class="hl-en">martial art</span> and a <span class="hl-en">fitness exercise</span> as well. It has a <span class="hl-en">long history</span> in China.</div>
+<div class="word-block">
+<p><strong>重点词汇：</strong></p>
+<p>martial art 武术｜fitness exercise 健身运动｜as well 也；还｜a long history 悠久的历史</p>
+<p><strong>重点句型：</strong>A is B and C as well.（A既是B也是C）</p>
+</div>
+</div>
+
+<div class="trans-item">
+<h3>句子 2</h3>
+<div class="cn-sentence">太极拳动作<span class="hl">缓慢而柔和</span>，<span class="hl">适合</span>任何年龄、性别、<span class="hl">体型</span>（build）的人。</div>
+<button class="btn" onclick="toggle('a2')">主干分析</button>
+<button class="btn btn-green" onclick="toggle('e2')">参考译文</button>
+<div id="a2" class="analysis">
+<p><span class="term">句式：</span>主系表结构，介词短语作状语</p>
+<p><span class="term">主干：</span>Taijiquan + is + suitable for + anyone</p>
+<p><span class="term">难点：</span>“动作缓慢而柔和”处理为 With 引导的伴随状语；“任何年龄、性别、体型”用 whatever 引导的让步状语从句处理。</p>
+</div>
+<div id="e2" class="en-sentence">With <span class="hl-en">slow and gentle</span> movements, Taijiquan is <span class="hl-en">suitable for</span> anyone, whatever their age, gender, or <span class="hl-en">build</span>.</div>
+<div class="word-block">
+<p><strong>重点词汇：</strong></p>
+<p>movement n. 动作｜gentle adj. 柔和的｜be suitable for 适合……｜gender n. 性别｜build n. 体型</p>
+<p><strong>重点句型：</strong>whatever + 名词（无论什么……）</p>
+</div>
+</div>
+
+<div class="trans-item">
+<h3>句子 3</h3>
+<div class="cn-sentence">太极拳既可用于<span class="hl">防身</span>（self-defense），又能<span class="hl">强身健体</span>，<span class="hl">因而</span>深受中国人民和世界人民的喜爱。</div>
+<button class="btn" onclick="toggle('a3')">主干分析</button>
+<button class="btn btn-green" onclick="toggle('e3')">参考译文</button>
+<div id="a3" class="analysis">
+<p><span class="term">句式：</span>被动语态 + 并列结构 + 因果关系</p>
+<p><span class="term">主干：</span>Taijiquan + can be used for... as well as...；Therefore, it + has become popular</p>
+<p><span class="term">时态：</span>情态动词被动语态（can be used）+ 现在完成时（has become）</p>
+</div>
+<div id="e3" class="en-sentence">Taijiquan can be used for <span class="hl-en">self-defense</span> as well as <span class="hl-en">building one's body</span>. <span class="hl-en">Therefore</span>, it has become very popular among people both in China and around the world.</div>
+<div class="word-block">
+<p><strong>重点词汇：</strong></p>
+<p>self-defense n. 防身｜as well as 既……又……（连接并列成分）｜therefore adv. 因此｜popular adj. 受欢迎的</p>
+<p><strong>重点句型：</strong>A as well as B（既A又B）；Therefore, ...（因此，……）</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>三、四级段落翻译真题实战</h2>
+
+<div class="quiz-item">
+<div class="q-cn"><strong>真题段落（2024.6）：</strong><br>农历是中国传统文化的重要组成部分，当今依然广为使用。它不仅指导农业生产，还指导人们的日常生活。农历在中国有着悠久的历史，它是中国古代劳动人民智慧的结晶。</div>
+<button class="btn btn-green" onclick="toggle('q1')">参考译文及连接词解析</button>
+<div id="q1" class="ref-answer">
+The lunar calendar is a significant part of traditional Chinese culture <strong>which</strong> is still widely used today. It guides agricultural production <strong>as well as</strong> people's daily lives. The lunar calendar has a long history in China, <strong>and</strong> it is the crystallization of the wisdom of the ancient Chinese working people.<br><br>
+<strong>连接词拆解：</strong><br>
+1. <strong>which</strong>：定语从句，连接农历与文化。<br>
+2. <strong>as well as</strong>：并列连词，连接农业和日常生活。<br>
+3. <strong>and</strong>：并列连词，连接“历史悠久”与“劳动人民的结晶”。
+</div>
+</div>
+
+<div class="quiz-item">
+<div class="q-cn"><strong>真题段落（2023.12）：</strong><br>中国政府十分重视人民的健康饮食。近年来，中国政府通过加大资金投入和政策引导，促进了健康饮食的发展。中国将进一步完善健康饮食体系，以保障人民的身体健康。</div>
+<button class="btn btn-green" onclick="toggle('q2')">参考译文及连接词解析</button>
+<div id="q2" class="ref-answer">
+The Chinese government attaches great importance to the people's healthy diet. In recent years, the government has promoted the development of a healthy diet <strong>by</strong> increasing financial input and policy guidance. China will further improve the healthy diet system <strong>so as to</strong> ensure people's physical health.<br><br>
+<strong>连接词拆解：</strong><br>
+1. <strong>by</strong>：介词，表示方式方法。<br>
+2. <strong>so as to</strong>：目的状语，连接“完善体系”与“保障健康”。
+</div>
+</div>
+
+<div class="quiz-item">
+<div class="q-cn"><strong>真题段落（2025.6）：</strong><br>超级杂交水稻营养丰富，口感更佳。它不仅大幅提高了粮食产量，还有效缓解了世界饥饿问题。</div>
+<button class="btn btn-green" onclick="toggle('q3')">参考译文及连接词解析</button>
+<div id="q3" class="ref-answer">
+Super hybrid rice is rich in nutrition <strong>and</strong> has a better taste. <strong>Not only</strong> does it greatly increase grain output, <strong>but</strong> it <strong>also</strong> effectively alleviates the problem of world hunger.<br><br>
+<strong>连接词拆解：</strong><br>
+1. <strong>and</strong>：并列连词，连接营养与口感。<br>
+2. <strong>Not only... but also</strong>：不仅……而且（由于 Not only 置于句首，引起了倒装 does it）。
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>四、补充材料：英语句间逻辑连接词（九大类·全注解版）</h2>
+
+<div class="sup-item">
+<button class="sup-btn color-1" onclick="toggle('sup1')">1. 并列与举例关系 (Coordination & Example)</button>
+<div id="sup1" class="sup-content">
+<p><strong>并列：</strong></p>
+<div class="vocab-list">
+<span>and (和)</span>
+<span>both...and... (两者都)</span>
+<span>as well as (也，和)</span>
+<span>neither...nor... (既不……也不……)</span>
+<span>either...or... (要么……要么……)</span>
+</div>
+<p><strong>举例与解释：</strong></p>
+<div class="vocab-list">
+<span>for example (例如)</span>
+<span>for instance (例如)</span>
+<span>such as (例如)</span>
+<span>namely (即，也就是)</span>
+<span>a case in point (恰当的例子)</span>
+<span>to illustrate (举例说明)</span>
+<span>take...as an example (以……为例)</span>
+<span>in other words (换句话说)</span>
+<span>that is to say (也就是说)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span>Many martial arts, <strong>such as</strong> Taijiquan and Shaolin Kungfu, are popular.</div>
+<div class="example"><span class="example-tag">【例句 2】</span>He is a good student. <strong>A case in point</strong> is his perfect score in the final exam.</div>
+<div class="example"><span class="example-tag">【例句 3】</span>He is too young for the job. <strong>In other words</strong>, he is not qualified.</div>
+<div class="example"><span class="example-tag">【例句 4】</span><strong>To illustrate</strong>, let us look at the chart below.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-2" onclick="toggle('sup2')">2. 递进与强调关系 (Addition & Emphasis)</button>
+<div id="sup2" class="sup-content">
+<p><strong>常用词：</strong></p>
+<div class="vocab-list">
+<span>also (也)</span>
+<span>besides (此外)</span>
+<span>moreover (而且)</span>
+<span>furthermore (此外)</span>
+<span>in addition (另外)</span>
+<span>on top of that (此外；更重要的是)</span>
+<span>what is more (更重要的是)</span>
+<span>not only...but also... (不仅……而且……)</span>
+<span>additionally (此外)</span>
+<span>not to mention (更不用说)</span>
+<span>to say nothing of (更不用说)</span>
+<span>more importantly (更重要的是)</span>
+<span>above all (最重要的是)</span>
+<span>most significantly (最显著的是)</span>
+<span>equally important (同样重要的是)</span>
+<span>particularly (尤其)</span>
+</div>
+<p><strong>表恶化（更糟的是）：</strong></p>
+<div class="vocab-list">
+<span>what is worse (更糟的是)</span>
+<span>worse still (更糟的是)</span>
+<span>to make matters worse (更糟的是)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span>It is <strong>not only</strong> good for health <strong>but also</strong> helps relax the mind.</div>
+<div class="example"><span class="example-tag">【例句 2】</span>The house is too expensive; <strong>what is more</strong>, it is far from the city center.</div>
+<div class="example"><span class="example-tag">【例句 3】</span>He can't even speak English well, <strong>not to mention</strong> French.</div>
+<div class="example"><span class="example-tag">【例句 4】</span>The weather was terrible. <strong>To make matters worse</strong>, we lost our way.</div>
+<div class="example"><span class="example-tag">【例句 5】</span><strong>On top of that</strong>, the hotel was noisy and dirty.</div>
+<div class="example"><span class="example-tag">【例句 6】</span><strong>Above all</strong>, we must be honest and responsible.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-3" onclick="toggle('sup3')">3. 原因与结果关系 (Cause & Effect)</button>
+<div id="sup3" class="sup-content">
+<p><strong>表原因：</strong></p>
+<div class="vocab-list">
+<span>because (因为)</span>
+<span>since (既然，由于)</span>
+<span>as (由于)</span>
+<span>for (因为)</span>
+<span>due to (由于)</span>
+<span>owing to (由于)</span>
+<span>thanks to (多亏了)</span>
+<span>on account of (由于)</span>
+<span>in that (因为)</span>
+<span>now that (既然)</span>
+<span>given (考虑到)</span>
+</div>
+<p><strong>表结果：</strong></p>
+<div class="vocab-list">
+<span>so (所以)</span>
+<span>therefore (因此)</span>
+<span>thus (因此)</span>
+<span>hence (因此)</span>
+<span>consequently (结果)</span>
+<span>as a result (结果)</span>
+<span>as a consequence (结果)</span>
+<span>for this reason (由于这个原因)</span>
+<span>accordingly (相应地)</span>
+<span>so...that... (如此……以至于)</span>
+<span>such...that... (如此……以至于)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span>Taijiquan is good for health. <strong>Therefore</strong>, it is popular.</div>
+<div class="example"><span class="example-tag">【例句 2】</span><strong>Given</strong> his poor health, he decided to give up the hard job. (表原因：考虑到)</div>
+<div class="example"><span class="example-tag">【例句 3】</span>He was caught in the rain; <strong>consequently</strong>, he caught a bad cold.</div>
+<div class="example"><span class="example-tag">【例句 4】</span>The flight was delayed <strong>on account of</strong> the heavy fog.</div>
+<div class="example"><span class="example-tag">【例句 5】</span>He didn't study hard; <strong>as a consequence</strong>, he failed the exam.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-4" onclick="toggle('sup4')">4. 转折与让步关系 (Contrast & Concession)</button>
+<div id="sup4" class="sup-content">
+<p><strong>转折：</strong></p>
+<div class="vocab-list">
+<span>but (但是)</span>
+<span>however (然而)</span>
+<span>yet (然而)</span>
+<span>while (然而)</span>
+<span>whereas (然而)</span>
+<span>on the contrary (相反)</span>
+<span>in contrast (相比之下)</span>
+<span>by contrast (相比之下)</span>
+<span>conversely (相反地)</span>
+<span>instead (反而)</span>
+<span>otherwise (否则)</span>
+<span>in fact (事实上；实则)</span>
+<span>as a matter of fact (事实上；实则)</span>
+</div>
+<p><strong>让步：</strong></p>
+<div class="vocab-list">
+<span>although (尽管)</span>
+<span>though (尽管)</span>
+<span>even if (即使)</span>
+<span>despite (尽管)</span>
+<span>in spite of (尽管)</span>
+<span>nevertheless (然而，不过)</span>
+<span>nonetheless (尽管如此)</span>
+<span>regardless of (不管)</span>
+<span>whatever (无论什么)</span>
+<span>no matter how (无论怎样)</span>
+<span>admittedly (诚然)</span>
+<span>granted (诚然)</span>
+<span>notwithstanding (尽管如此)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span><strong>Although</strong> it is simple to make, it is of great significance.</div>
+<div class="example"><span class="example-tag">【例句 2】</span>He looks very young. <strong>In fact</strong>, he is already over 40. (转折：看似...实际上)</div>
+<div class="example"><span class="example-tag">【例句 3】</span><strong>Regardless of</strong> the heavy rain, the rescue team continued their search.</div>
+<div class="example"><span class="example-tag">【例句 4】</span><strong>Admittedly</strong>, the task is difficult, but we must complete it.</div>
+<div class="example"><span class="example-tag">【例句 5】</span>He is very generous, <strong>whereas</strong> his brother is quite mean.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-5" onclick="toggle('sup5')">5. 条件与假设关系 (Condition & Hypothesis)</button>
+<div id="sup5" class="sup-content">
+<p><strong>常用词：</strong></p>
+<div class="vocab-list">
+<span>if (如果)</span>
+<span>unless (除非)</span>
+<span>as long as (只要)</span>
+<span>so long as (只要)</span>
+<span>on condition that (条件是)</span>
+<span>provided/providing that (如果，只要)</span>
+<span>suppose/supposing (假设)</span>
+<span>in case (万一)</span>
+<span>given (如果给予)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span><strong>As long as</strong> you keep practicing, you will master Taijiquan.</div>
+<div class="example"><span class="example-tag">【例句 2】</span>You can go out to play <strong>provided that</strong> you finish your homework first.</div>
+<div class="example"><span class="example-tag">【例句 3】</span><strong>Given</strong> enough time, we can finish the task perfectly. (表条件：如果给予)</div>
+<div class="example"><span class="example-tag">【例句 4】</span><strong>Suppose</strong> you had a million dollars, what would you do with it?</div>
+<div class="example"><span class="example-tag">【例句 5】</span>Take an umbrella with you <strong>in case</strong> it rains this afternoon.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-6" onclick="toggle('sup6')">6. 时间与顺序关系 (Time & Sequence)</button>
+<div id="sup6" class="sup-content">
+<p><strong>常用词：</strong></p>
+<div class="vocab-list">
+<span>when (当……时)</span>
+<span>while (当……时)</span>
+<span>since (自从)</span>
+<span>before (在……之前)</span>
+<span>after (在……之后)</span>
+<span>as soon as (一……就)</span>
+<span>until/till (直到)</span>
+<span>hardly...when... (一……就)</span>
+<span>no sooner...than... (一……就)</span>
+<span>meanwhile (与此同时)</span>
+<span>in the meantime (在此期间)</span>
+<span>subsequently (随后)</span>
+<span>to begin with (首先)</span>
+<span>first(ly) (首先)</span>
+<span>then (然后)</span>
+<span>next (接下来)</span>
+<span>finally (最后)</span>
+<span>last but not least (最后但同样重要的是)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span><strong>Since</strong> ancient times, Chinese people have practiced martial arts.</div>
+<div class="example"><span class="example-tag">【例句 2】</span><strong>Hardly had</strong> I arrived home <strong>when</strong> it started to rain heavily.</div>
+<div class="example"><span class="example-tag">【例句 3】</span><strong>To begin with</strong>, we should make a detailed plan.</div>
+<div class="example"><span class="example-tag">【例句 4】</span>You should prepare the materials; <strong>in the meantime</strong>, I will invite the guests.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-7" onclick="toggle('sup7')">7. 目的关系 (Purpose)</button>
+<div id="sup7" class="sup-content">
+<p><strong>常用词：</strong></p>
+<div class="vocab-list">
+<span>to (为了)</span>
+<span>in order to (为了)</span>
+<span>so as to (以便)</span>
+<span>so that (以便)</span>
+<span>in order that (为了)</span>
+<span>for the purpose of (为了……目的)</span>
+<span>lest (唯恐，免得)</span>
+<span>for fear that (唯恐)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span>People practice Taijiquan <strong>to</strong> build their bodies.</div>
+<div class="example"><span class="example-tag">【例句 2】</span>We spoke in a low voice <strong>lest</strong> we should wake the sleeping baby.</div>
+<div class="example"><span class="example-tag">【例句 3】</span>He ran fast <strong>for fear that</strong> he might miss the train.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-8" onclick="toggle('sup8')">8. 方式与比较关系 (Manner & Comparison)</button>
+<div id="sup8" class="sup-content">
+<p><strong>方式：</strong></p>
+<div class="vocab-list">
+<span>as (正如)</span>
+<span>just as (正如)</span>
+<span>as if (仿佛)</span>
+<span>as though (仿佛)</span>
+<span>by doing (通过做……)</span>
+</div>
+<p><strong>比较：</strong></p>
+<div class="vocab-list">
+<span>similarly (同样地)</span>
+<span>likewise (同样地)</span>
+<span>in the same way (同样地)</span>
+<span>compared with (与……相比)</span>
+<span>in comparison with (与……相比)</span>
+<span>in contrast with (与……形成对照)</span>
+<span>rather than (而不是)</span>
+<span>instead of (代替，而不是)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span><strong>Just as</strong> the saying goes, practice makes perfect.</div>
+<div class="example"><span class="example-tag">【例句 2】</span><strong>In comparison with</strong> his brother, he is much taller.</div>
+<div class="example"><span class="example-tag">【例句 3】</span>I will have tea <strong>rather than</strong> coffee.</div>
+</div>
+</div>
+
+<div class="sup-item">
+<button class="sup-btn color-9" onclick="toggle('sup9')">9. 总结关系 (Summary)</button>
+<div id="sup9" class="sup-content">
+<p><strong>常用词：</strong></p>
+<div class="vocab-list">
+<span>in a word (总之)</span>
+<span>in short (简言之)</span>
+<span>in brief (简而言之)</span>
+<span>in conclusion (总之)</span>
+<span>to sum up (总结来说)</span>
+<span>to summarize (总结来说)</span>
+<span>in summary (概括来说)</span>
+<span>on the whole (总体而言)</span>
+<span>all in all (总而言之)</span>
+<span>in general (总的来说/一般而言)</span>
+<span>in a nutshell (简而言之)</span>
+<span>overall (总的来说)</span>
+<span>ultimately (最终/归根结底)</span>
+</div>
+<div class="example"><span class="example-tag">【例句 1】</span><strong>In conclusion</strong>, Taijiquan is not just a sport but a cultural treasure.</div>
+<div class="example"><span class="example-tag">【例句 2】</span><strong>In a nutshell</strong>, we need to take immediate action to protect the environment.</div>
+<div class="example"><span class="example-tag">【例句 3】</span><strong>In general</strong>, people are becoming more health-conscious.</div>
+<div class="example"><span class="example-tag">【例句 4】</span><strong>To sum up</strong>, we have achieved all our goals this year.</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script>
+function toggle(id){const el=document.getElementById(id);if(el)el.classList.toggle('show');}
+</script>
+
+</body>
+</html>
